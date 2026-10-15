@@ -8,6 +8,8 @@ public class UOW_Optimization : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput", "Niagara", "AIModule", "GameplayTasks", "AssetRegistry" });
+
+		PublicIncludePaths.Add(ModuleDirectory);
 	}
 }

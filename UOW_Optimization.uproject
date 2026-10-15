@@ -8,6 +8,11 @@
 			"Name": "UOW_Optimization",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "UOW_OptimizationEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
 		}
 	],
 	"Plugins": [
@@ -17,6 +22,10 @@
 			"TargetAllowList": [
 				"Editor"
 			]
+		},
+		{
+			"Name": "Niagara",
+			"Enabled": true
 		}
 	]
 }
