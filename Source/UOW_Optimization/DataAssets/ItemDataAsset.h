@@ -17,6 +17,8 @@ enum class EItemType : uint8
 	Ingredient
 };
 
+// Make inherit from UItemInterface for optimizations in the future. 
+
 UCLASS(Abstract, BlueprintType)
 class UOW_OPTIMIZATION_API UItemDataAsset : public UPrimaryDataAsset
 {

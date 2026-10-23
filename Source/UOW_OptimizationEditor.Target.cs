@@ -8,8 +8,7 @@ public class UOW_OptimizationEditorTarget : TargetRules
 	public UOW_OptimizationEditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
-		DefaultBuildSettings = BuildSettingsVersion.V5;
-		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_4;
+		DefaultBuildSettings = BuildSettingsVersion.V7;
 		ExtraModuleNames.AddRange(new string[] { "UOW_Optimization", "UOW_OptimizationEditor" });
 	}
 }
